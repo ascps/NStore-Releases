@@ -2,7 +2,7 @@
 
 # NStore
 
-Менеджер приложений iPhone и iPad для macOS на Apple Silicon.
+Менеджер приложений iPhone и iPad для macOS на Apple Silicon и Intel.
 
 [**Скачать последнюю стабильную версию →**](https://github.com/ascps/NStore-Releases/releases/latest)
 
@@ -28,7 +28,7 @@ NStore позволяет находить приложения в истори�
 2. Скачайте файл `NStore-…-macOS-arm64.dmg`.
 3. Откройте DMG и перенесите NStore в «Программы».
 
-Требуется macOS 14 или новее, Mac с Apple Silicon (M1 и новее). Для установки на iPhone/iPad подключите устройство по USB, разблокируйте его и подтвердите доверие.
+Требуется macOS 14 или новее. Выберите DMG `arm64` для Apple Silicon (M1 и новее) или `x86_64` для Intel. Для установки на iPhone/iPad подключите устройство по USB, разблокируйте его и подтвердите доверие.
 
 Текущие сборки имеют локальную подпись ad hoc, без нотарификации Apple. macOS может потребовать отдельного подтверждения запуска через «Системные настройки → Конфиденциальность и безопасность». Не отключайте Gatekeeper целиком. [Инструкция Apple](https://support.apple.com/ru-ru/102445).
 
@@ -70,3 +70,7 @@ GitHub автоматически добавляет ZIP и TAR.GZ содерж�
 Роман Головков · [Telegram: @buuded](https://t.me/buuded)
 
 © 2026 Роман Головков. NStore | Roman G. | buuded.
+
+## macOS Intel
+
+[Скачать NStore 0.4.2 для Intel (.dmg)](https://github.com/ascps/NStore-Releases/releases/download/v0.4.2/NStore-0.4.2-macOS-x86_64.dmg). Требуется macOS 14+. Функции и тарифы общие с Apple Silicon; для Intel используется отдельный подписанный канал обновлений.
